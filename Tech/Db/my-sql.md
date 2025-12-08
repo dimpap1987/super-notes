@@ -1,0 +1,17 @@
+
+### Find the foreign keys references a spesific table
+
+```sql
+SELECT 
+  TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+FROM
+  INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+  REFERENCED_TABLE_NAME = '<table>';
+```
+
+### Connect to a remote sql server
+
+```bash
+mysql -h -P 3306 -u --password=
+```

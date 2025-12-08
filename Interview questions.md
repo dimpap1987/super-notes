@@ -1,0 +1,18 @@
+- microservices vs monolith - patterns
+- kafka
+- Data structures
+- Rest
+- Queries performance
+- Rest vs event driven
+- Caching mechanisms
+- Actuator
+- J2SE
+- docker - k8
+- AOP
+- JPA
+- Mentoring
+- RDBMS vs sql
+- java
+	- hash vs equals
+	- concurrency
+- troubleshooting
